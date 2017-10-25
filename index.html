@@ -14,6 +14,32 @@
   <div class="container well">
     <h1>Car insurance</h1>
     <p>To give you a quote, we need to know a little about you:</p>
+
+    <form id="insurance">
+      <div class="row">
+        <div class="col-md-6 center-block">
+          <div class="form-group">
+            <label for="age">Age: </label>
+            <input id="age" class="form-control" type="text" required>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 center-block">
+          <div class="form-group">
+            <label for="gender">Gender: </label>
+            <select id="gender" class="form-control">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Calculate my quote</button>
+    </form>
   </div>
 </body>
 </html>
