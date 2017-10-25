@@ -14,3 +14,8 @@ body {
 .center-block {
   float: none;
 }
+
+div#quote {
+  display: none;
+  margin-top: 20px;
+}
