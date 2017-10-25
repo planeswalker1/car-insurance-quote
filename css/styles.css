@@ -10,3 +10,7 @@ body {
 .container {
   margin-top: 40px;
 }
+
+.center-block {
+  float: none;
+}
