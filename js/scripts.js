@@ -1,4 +1,8 @@
 $('form#insurance').submit(function(event) {
   event.preventDefault();
-  alert('form submitted');
+  let age = parseFloat($('input#age').val());
+  let gender = $('select#gender').val();
+
+  let quote = (100 - age) * 3;
+  console.log(quote, gender, age);
 });
