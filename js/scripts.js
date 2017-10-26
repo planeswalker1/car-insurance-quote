@@ -8,6 +8,9 @@ $('form#insurance').submit(function(event) {
   if (gender === 'male' || age < 26) {
     quote += 50;
   }
-  
+
   console.log(quote, gender, age);
+
+  $('span#rate').empty().append(quote);
+  $('div#quote').fadeIn();
 });
