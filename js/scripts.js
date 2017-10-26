@@ -14,3 +14,7 @@ $('form#insurance').submit(function(event) {
   $('span#rate').empty().append(quote);
   $('div#quote').fadeIn();
 });
+
+$('input, select').focus(function() {
+  $('div#quote').fadeOut();
+});
